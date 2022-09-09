@@ -1,0 +1,51 @@
+#main {
+    margin: 100px 400px;
+    word-spacing: 2px;
+}
+
+#main h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #00cc00;
+}
+
+.block {
+    margin: 10px 0px;
+}
+
+.block:last-child {
+    margin: 15px 0px;
+}
+
+.block span:first-child {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.block span:nth-child(2),
+.block span:nth-child(4) {
+    font-style: italic;
+    opacity: 0.8;
+}
+
+.block span:nth-child(3),
+.block span:nth-child(5) {
+    color: #ff2319
+}
+
+.block .box {
+    background-color: #ccc;
+    padding: 10px 0px;
+    margin: 10px 0px;
+}
+
+.block .box p {
+    color: #1212fa;
+    margin: 10px 65px;
+    word-spacing: 2px;
+    font-size: 12px;
+}
+
+.block .box p:nth-child(3) {
+    text-indent: 50px;
+}
